@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Microgrid Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<h1>Microgrid Dashboard</h1>
+
+<!-- ----- TABLE ----- -->
+<table border="1" id="t">
+    <tr>
+        <th>V</th>
+        <th>I</th>
+        <th>P</th>
+        <th>F</th>
+        <th>SOC</th>
+        <th>Pred</th>
+    </tr>
+</table>
+
+<br>
+
+<!-- ----- CHARTS ----- -->
+<h2>Voltage Curve</h2>
+<canvas id="voltageChart" width="600" height="200"></canvas>
+
+<h2>Current Curve</h2>
+<canvas id="currentChart" width="600" height="200"></canvas>
+
+<script src="script.js"></script>
+
+</body>
+</html>
